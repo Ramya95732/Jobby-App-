@@ -193,6 +193,7 @@ class AboutJob extends Component {
     return (
       <>
         <Header />
+      {this.renderJobDetails()}
       </>
     )
   }
